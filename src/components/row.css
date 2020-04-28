@@ -1,0 +1,24 @@
+.body-row {
+    padding: 5px 20px;
+    background-color: lightcyan;
+    font-weight: bold;
+    border-bottom: 2px solid darkcyan;
+    transition: background-color 300ms;
+    color: darkcyan;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .body-row:hover {
+        background-color: skyblue;
+    }
+
+    .body-row > span {
+        color: midnightblue;
+    }
+
+    .body-row > button {
+        float: right;
+        border-radius: 5px;
+        font-weight: bold;
+    }
